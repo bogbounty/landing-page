@@ -48,14 +48,29 @@ ul li a{
     margin-top: 58px;
     display: flex;
     align-items: center;
-    justify-content: center;'
+    justify-content: center;
     
 }
 
 .left-banner {
-    width: 500px; 
+    width: 380px; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5px;
 }
 
 .right-banner {
-    width: 400px;
+    width: 380px;
 }
+
+.left-banner button{
+    padding: 4px 34px;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 120px;
+    
+}
+
