@@ -62,6 +62,17 @@ ul li a{
     gap: 5px;
 }
 
+.hero {
+    font-size: 48px;
+    font-weight: 900;
+     
+}
+
+.hero-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .right-banner {
     width: 380px;
 }
@@ -76,38 +87,13 @@ ul li a{
     
 }
 
-
 .main-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: white;
-    flex: 2;
-
-}
-
-.main-bottom {
-    flex: 1;
-    background-color: blue; 
-    display: flex; 
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    background-color: #E5E7EB;
      
-}
-
-.main-bottom-container {
-    display: flex; 
-    width: 700px;
-    margin: 20px;
-}
-
-.main-bottom p{
-    font-size: 36px; 
-    color: #1F2937;
-    font-weight: 300;
 }
 
 .main-top {
@@ -122,7 +108,7 @@ ul li a{
     align-items: center;
     justify-content: center;
     gap: 60px;
-    
+    margin-bottom: 80px;
      
 }
 
@@ -151,27 +137,98 @@ ul li a{
     
 }
 
-.main-top-title p{
+.information-header {
     font-size: 36px; 
     color: #1F2937; 
     font-weight: 900;
 }
 .main-items p{
     color: #1F2937;
-    
 }
 
 .signup {
     display: flex; 
     align-items: center;
     justify-content: center;
+    background-color: white;
+     
+}
+
+
+
+.main-bottom {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+     
+     
+}
+
+.main-bottom-container {
+    display: flex; 
+    width: 700px;
+    flex-direction: column;
+    padding: 58px;
+
+}
+
+.main-bottom-thunder {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin: 10px;
+
+}
+
+.main-bottom-thunder strong{
+    color: black;
+
+}
+
+.qoute-text{
+    font-size: 36px; 
+    color: #1F2937;
+    font-weight: 300;
+     
+}
+
+.signup {
     flex: 1;
 }
+
+.signup-bluebox{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 900px;
+    padding: 50px;
+    margin: 50px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    
+}
+
+
+
+.signup-bluebox button{
+    padding: 8px 26px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+}
+
 
 .footer {
     background-color: #1F2937;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 20px;   
     
+}
+
+.footer p{
+    font-size: 20px;
 }
